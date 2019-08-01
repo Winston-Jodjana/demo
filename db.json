@@ -1,1 +1,173 @@
-{test}
+{
+    "code": "SUCCESS",
+    "message": "Success",
+    "errors": null,
+    "data": {
+        "parameter": {
+            "departDate": "20190728",
+            "returnDate": "20190802",
+            "originCode": "GMR",
+            "originType": "STATION",
+            "destinationCode": "BD",
+            "destinationType": "STATION",
+            "tripType": "ROUND_TRIP",
+            "connectionTypes": null,
+            "adultCount": 1,
+            "infantCount": 0
+        },
+        "departJourneys": {
+            "journeys": [
+                {
+                    "id": "5d37c5d721bb29e3395b1be6",
+                    "segmentSchedules": [
+                        {
+                            "id": "5d37c5d721bb29e3395b1bd5",
+                            "trainNumber": "1112",
+                            "trainName": "ARGO PARAHYANGAN",
+                            "departureStation": {
+                                "id": null,
+                                "code": "GMR",
+                                "name": "Gambir",
+                                "locator": null,
+                                "city": null
+                            },
+                            "departureDate": "2019-07-28",
+                            "departureTime": "10:00:00",
+                            "arrivalStation": {
+                                "id": null,
+                                "code": "BD",
+                                "name": "Bandung",
+                                "locator": null,
+                                "city": null
+                            },
+                            "arrivalDate": "2019-07-28",
+                            "arrivalTime": "13:15:00",
+                            "wagonClass": {
+                                "code": "E",
+                                "detail": "Eksekutif"
+                            },
+                            "subClass": {
+                                "code": "A"
+                            },
+                            "availableSeats": 295,
+                            "scheduleFares": [
+                                {
+                                    "paxType": "ADULT",
+                                    "priceAmount": 140000
+                                },
+                                {
+                                    "paxType": "INFANT",
+                                    "priceAmount": 0
+                                }
+                            ],
+                            "validUntil": "2019-07-25T14:46:55",
+                            "stopCount": -1
+                        }
+                    ],
+                    "segmentCount": 1,
+                    "originStation": {
+                        "id": null,
+                        "code": "GMR",
+                        "name": "Gambir",
+                        "locator": null,
+                        "city": null
+                    },
+                    "destinationStation": {
+                        "id": null,
+                        "code": "BD",
+                        "name": "Bandung",
+                        "locator": null,
+                        "city": null
+                    },
+                    "departDate": "2019-07-28",
+                    "departTime": "13:15:00",
+                    "arriveDate": "2019-07-28",
+                    "arriveTime": "13:15:00",
+                    "totalDuration": 0,
+                    "transitTimings": [],
+                    "nextDays": 0
+                }
+            ],
+            "alternatives": [],
+            "count": 4
+        },
+        "returnJourneys": {
+            "journeys": [
+                {
+                    "id": "5d39502521bb29e3395f6684",
+                    "segmentSchedules": [
+                        {
+                            "id": "5d39502521bb29e3395f6656",
+                            "scheduleId": "5923563",
+                            "tripId": "54661",
+                            "trainNumber": "3D",
+                            "trainName": "ARGO PARAHYANGAN DEV",
+                            "departureStation": {
+                                "id": 1,
+                                "code": "BD",
+                                "name": "Bandung",
+                                "locator": null,
+                                "city": null
+                            },
+                            "departureDate": "2019-08-02",
+                            "departureTime": "13:00:00",
+                            "arrivalStation": {
+                                "id": 4,
+                                "code": "GMR",
+                                "name": "Gambir",
+                                "locator": null,
+                                "city": null
+                            },
+                            "arrivalDate": "2019-08-02",
+                            "arrivalTime": "15:15:00",
+                            "wagonClass": {
+                                "id": 4,
+                                "code": "EKO",
+                                "detail": "Ekonomi"
+                            },
+                            "subClass": {
+                                "id": 81,
+                                "code": "C"
+                            },
+                            "availableSeats": 320,
+                            "scheduleFares": [
+                                {
+                                    "paxType": "ADULT",
+                                    "priceAmount": 300000
+                                }
+                            ],
+                            "validUntil": "2019-07-25T14:46:53",
+                            "stopCount": -1
+                        }
+                    ],
+                    "segmentCount": 1,
+                    "originStation": {
+                        "id": 1,
+                        "code": "BD",
+                        "name": "Bandung",
+                        "locator": null,
+                        "city": null
+                    },
+                    "destinationStation": {
+                        "id": 4,
+                        "code": "GMR",
+                        "name": "Gambir",
+                        "locator": null,
+                        "city": null
+                    },
+                    "departDate": "2019-08-02",
+                    "departTime": "15:15:00",
+                    "arriveDate": "2019-08-02",
+                    "arriveTime": "15:15:00",
+                    "totalDuration": 0,
+                    "transitTimings": [],
+                    "nextDays": 0
+                }
+            ],
+            "alternatives": [],
+            "count": 26
+        }
+    },
+    "serverTime": 1564040803.51
+}
+
